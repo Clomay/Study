@@ -5,7 +5,7 @@
           <div class="title index-page__title">
             <h1>PIG Farm</h1>
             <div class="index-page__title-logo">
-              <img src="/pics/PIG-new-year.png" alt="PIG Farm V2">
+              <img src="/pics/pigbar.png" alt="PIG Farm V2">
             </div>
           </div>
           <div class="balance">
