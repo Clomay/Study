@@ -1,7 +1,9 @@
 <template>
-  <!-- Footer -->
-  <mdb-footer color="blue-grey" class="page-footer font-small lighten-5 pt-0">
-    <div style="backgroundColor: '#21d192'">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        mdb-footer color="unique-color-dark" class="page-footer font-small pt-0">
+    <div style="backgroundColor: #6351ce">
       <mdb-container class="text-left">
         <mdb-row class="py-4 d-flex align-items-center">
           <mdb-col md="6" lg="5" class="text-center text-md-left mb-4 mb-md-0">
@@ -16,7 +18,8 @@
           </mdb-col>
         </mdb-row>
       </mdb-container>
-
+    </div>
+      </div>
     </div>
   </footer>
 </template>
