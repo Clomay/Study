@@ -1,8 +1,6 @@
 <template>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__inner">
-        mdb-footer color="unique-color-dark" class="page-footer font-small pt-0">
+  <!-- Footer -->
+  <mdb-footer color="unique-color-dark" class="page-footer font-small pt-0">
     <div style="backgroundColor: #6351ce">
       <mdb-container class="text-left">
         <mdb-row class="py-4 d-flex align-items-center">
