@@ -1,50 +1,19 @@
 <template>
-  <v-footer
-    dark
-    padless
-  >
-    <v-card
-      class="flex"
-      flat
-      tile
-    >
-      <v-card-title class="teal">
-        <strong class="subheading">Get connected with us on social networks!</strong>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a target="_blank" href="https://www.bscscan.com/address/0xe64f5cb844946c1f102bd25bbd87a5ab4ae89fbe" class="footer__link">PIG TOKEN</a>
+        <a target="_blank" href="https://exchange.pancakeswap.finance/#/add/0xE64F5Cb844946C1F102Bd25bBD87a5aB4aE89Fbe/ETH" class="footer__link">PancakeSwap</a>
 
-        <v-spacer></v-spacer>
-
-        <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4"
-          dark
-          icon
-        >
-          <v-icon size="24px">
-            {{ icon }}
-          </v-icon>
-        </v-btn>
-      </v-card-title>
-
-      <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-      </v-card-text>
-    </v-card>
-  </v-footer>
+        <a target="_blank" href="https://github.com/roobee-platform" class="footer__link">Github</a>
+        <a target="_blank" href="https://t.me/roobee_invest" class="footer__link">Telegram</a>
+        <a target="_blank" href="https://medium.com/@roobee_invest" class="footer__link">Medium</a>
+        <a target="_blank" href="https://twitter.com/Roobee_invest" class="footer__link">Twitter</a>
+        <a target="_blank" href="https://roobee.gitbook.io/roobee-eng/" class="footer__link">Gitbook</a>
+      </div>
+    </div>
+  </footer>
 </template>
-
-<script>
-  export default {
-    data: () => ({
-      icons: [
-        'mdi-facebook',
-        'mdi-twitter',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
-    }),
-  }
-</script>
 
 <script>
 export default {
