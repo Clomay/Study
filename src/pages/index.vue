@@ -11,8 +11,8 @@
           <div class="balance">
             <div class="balance__inner">
               <Card title="PIG/BNB" farm-link="/farming_pancake" top-icon="/pics/pancake.png" currency-icon="/pics/bnb.png" daily-pool="25 000" :finished="true" />
-              <Card title="PIG/BNB" farm-link="/farming_bnb" top-icon="/pics/burger.png" currency-icon="/pics/bnb.png" daily-pool="25 000" />
-              <Card title="PIG/BURGER" farm-link="/farming_burger" top-icon="/pics/burger.png" currency-icon="/pics/burger.png" daily-pool="25 000" />
+              <Card title="PIG/BUSD" farm-link="/farming_bnb" top-icon="/pics/burger.png" currency-icon="/pics/bnb.png" daily-pool="25 000" />
+              <Card title="PIG/USDT" farm-link="/farming_burger" top-icon="/pics/burger.png" currency-icon="/pics/burger.png" daily-pool="25 000" />
             </div>
             <div class="balance__info">
               <div class="balance__icon">!</div>
