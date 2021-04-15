@@ -3,7 +3,7 @@
       <div class="info">
         <div class="container">
           <div class="title index-page__title">
-            <h1>PIG Farm</h1>
+            <h1></h1>
             <div class="index-page__title-logo">
               <img src="/pics/pigbar.png" alt="">
             </div>
